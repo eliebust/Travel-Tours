@@ -80,11 +80,11 @@
           <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
           <script src="js/script.js"></script>
       </div>
-          <br>
     </section>
 
 
           <section>
+            <br>
                 <div class="buscar">
                       <div class="">
                         <form action="#" class="buscar_form" id="buscar_form">
@@ -108,7 +108,7 @@
                         </form>
                       </div>
                </div>
-               <br><br>
+               <br>
           </section>
 
           <!-- carousel-->
@@ -189,13 +189,16 @@
               </div>
               <div class="col-lg-5 col-xl-3 offset-lg-1 col-sm-6">
                   <div class="tour_pack_content">
-                    <div class="part1">
-                      <section>
-                        Promociones
-                      </section>
+                    <div class="">
+                      TOURS CIUDADES
                     </div>
-                    <div class="part2">
-  Hola
+                    <div class="contenido">
+                        <div class="">
+                          <img src="" alt="">
+                        </div>
+                        <div class="">
+                          <img src="" alt="">
+                        </div>
                     </div>
                   </div>
               </div>
@@ -256,39 +259,7 @@
   <!-- custom js -->
   <script src="js/custom.js"></script>
 
-
-    <script>
-      // console.log('Hola mundo! es mi primera linea en JS');
-      const ipad = window.matchMedia('screen and (max-width: 1024px)')
-      const menu = document.querySelector('.menu');
-      // console.log(menu);
-      const burgerButton = document.querySelector('#burger-menu');
-      // console.log(burgerButton);
-
-
-      ipad.addListener(validation)
-
-      function validation(event) {
-        if (event.matches) {
-          burgerButton.addEventListener('click', hideShow)
-        } else {
-          burgerButton.removeEventListener('click', hideShow)
-        }
-      }
-      validation(ipad);
-
-
-      function hideShow() {
-        if (menu.classList.contains('is-active')) {
-          menu.classList.remove('is-active');
-        } else {
-          menu.classList.add('is-active');
-        }
-      }
-    </script>
-
-
-
+  <script src="js/buton-menu.js"></script>
 
 
   </body>

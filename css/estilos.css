@@ -198,7 +198,7 @@ ol, ul {
 
 .contenedor-slider {
   margin: 0px;
-  height: 600px;
+  height: 550px;
   /*width: 85%;*/
 /*max-width: 1500px;*/
   position: relative;
@@ -350,11 +350,9 @@ ol, ul {
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;*/
 }
-.buscar_button:hover
-{
+.buscar_button:hover{
 	border: solid 0px #ffffff;
 }
-
 
 /*carrousel*/
 
@@ -378,18 +376,18 @@ ol, ul {
   color: #00c0ff;
 }
 
-/****** Carousel scss *******/
-@media (max-width: 991px) {
+/****** Carousel*******/
+
   .tour {
     padding: 0 0 70px;
   }
-}
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
   .tour {
     padding: 0 0 80px;
   }
-}
+
 
 .tour .tour_container .tour_pack_content {
   background-color: #F9F5F9;
@@ -483,7 +481,7 @@ ol, ul {
   margin-right: 20px;
 }
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   .single_pack {
     padding: 70px 0;
   }
@@ -493,13 +491,9 @@ ol, ul {
   .single_pack {
     padding: 80px 0;
   }
-}
+}*/
 
-.part1 section{
-  background: red;
-  width: 100%;
-  height: 100%;
-}
+/*
 
 
 
@@ -696,14 +690,8 @@ ol, ul {
 
 
 
-@media screen and (max-width: 1024px) {
 
-  .hero {
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    padding: 0;
-  }
+@media screen and (max-width: 1024px) {
 
   h1 {
     font-size: 2em;
@@ -782,17 +770,9 @@ ol, ul {
 
   /* Slider*/
 
-  .hero {
-    margin: 0;
-    height: auto;
-    position: relative;
-    overflow: hidden;
-    padding: 0;
-  }
-
   .contenedor-slider {
     margin: 0px;
-    height: 500px;
+    height: 330px;
     /*width: 85%;*/
   /*max-width: 1500px;*/
     position: relative;
@@ -842,7 +822,7 @@ ol, ul {
     right: 10px;
   }
 
-  .contenedor{
+/*  .contenedor{
   	position: absolute;
   	top: 400px;
   	left: 370px;
@@ -854,7 +834,7 @@ ol, ul {
     width: 300px;
     height: 65px;
   }
-
+*/
 
 
 
@@ -891,221 +871,97 @@ ol, ul {
     left: 300px;
   }
 
-
-
-
-
-}
-
-
-@media screen and (max-width: 767px) {
-  h2 {
-    font-size: 1.2em;
-    margin: .5em 0;
-  }
-
-  /*menu*/
-
-  .principal {
-    background-color: #701173;
-    color: white;
-    display: flex;
-    height: 120px;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .contenedor-logo{
-    position:absolute;
-  /*  z-index:2000; */
-    top: 0px;
-    left: 100px;
-  }
-
-  .logo img{
-    width: 250px;
-    height: 95px;
-    border: 5px;
-    border-color: #ffffff;
-  }
-
   .burger-button {
     display: block;
-  }
-  .header {
-    display: block;
-    height: auto;
-  }
-  .header ol {
-    display: block;
-  }
-  .header ol li {
-    height: 50px;
-  }
-  .header a {
-    justify-content: center;
-    height: 40px;
-    font-size: 2em;
-    text-decoration: underline;
-    margin-bottom: .5em;
-  }
-  .header .logo {
-    text-align: center;
+    top: 30px;
+    left: 30px;
   }
 
-  .menu {
-    position: fixed;
-    background: rgba(49, 49, 49, .9);
-    z-index: 3;
-    top: 0;
-    left: -100vw;
-    width: 100vw;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
-    text-decoration: none;
-  }
-  .menu.is-active {
-    left: 0;
+  /*slider*/
+
+  .contenedor-slider {
+    margin: 0px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
   }
 
-/*slider*/
-
-.contenedor-slider {
-  margin: 0px;
-  height: 280px;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero img {
-  height: 210px;
-}
-
-  .btn-prev, .btn-next {
-    width: 40px;
-    height: 40px;
-    background: rgba(255, 255, 255, 0.7);
-    position: absolute;
-    top: 20%;
-    transform: translateY(-50%);
-    line-height: 40px;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 50%;
-    font-family: monospace;
-    cursor: pointer;
+  .contenedor-slider img {
+    width: 110%;
+    height: 300px;
   }
 
-  .btn-prev:hover, .btn-next:hover {
-    background: white;
-  }
+    .btn-prev, .btn-next {
+      width: 40px;
+      height: 40px;
+      background: rgba(255, 255, 255, 0.2);
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      line-height: 40px;
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+      border-radius: 50%;
+      font-family: monospace;
+      cursor: pointer;
+    }
+
+    .btn-prev:hover, .btn-next:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
 
 
+    /*Buscador de Propiedades*/
 
-  /*Buscador de Propiedades*/
+    .buscar form{
+      display: inline-block;
+      border-radius: 10px;
+    }
 
-  .buscar form{
-    display: inline-block;
-    border-radius: 3px;
-  }
+    .buscar_form {
+      display: inline-block;
+    	justify-content: center;
+    	max-width: 500px;
+    	display: block;
+    	padding-top: 18px;
+    	padding-bottom: 15px;
+    	padding-left: 5px;
+    	padding-right: 5px;
+    	background: #701173;
+    }
 
-  .buscar_form
-  {
-    display: inline-block;
-   justify-content: center;
-   max-width: 470px;
-   display: block;
-   padding-top: 18px;
-   padding-bottom: 15px;
-   padding-left: 5px;
-   padding-right: 5px;
-   background: rgba(0,0,0,0.17);
-  }
+    .buscar_form select {
+      display: inline-block;
+    	justify-content: center;
+    	max-width: 380px;
+      max-height: 45px;
+      font-size: 25px;
+    	display: block;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
+    	padding-right: 10px;
+    }
 
-  .buscar_button
-  {
-    margin: 10px;
-   width: 300px;
-   height: 51px;
-   background: #2d7f35;
-   color: #ffffff;
-   border: none;
-   outline: none;
-   cursor: pointer;
-    font-family:'Bebas Neue';
-   font-size: 20px;
-   font-weight: 500;
-   text-transform: uppercase;
-   -webkit-transition: all 200ms ease;
-   -moz-transition: all 200ms ease;
-   -ms-transition: all 200ms ease;
-   -o-transition: all 200ms ease;
-   transition: all 200ms ease;
-  }
-  .buscar_button:hover
-  {
-   border: solid 2px #ffffff;
-  }
-  .buscar_input
-  {
-    margin: 5px;
-   /*width: calc((100% - 22px) / 3);*/
-   width: 420px;
-   height: 51px;
-   padding-left: 27px;
-   background: #ffffff;
-   border: none;
-   outline: none;
-    font-family:'Bebas Neue';
-   font-size: 20px;
-   font-weight: 500;
-   color: #2b2e35;
-  }
-
-  .buscador-a a{
-    margin: 0;
-    width: 600px;
-    text-align: center;
-  }
-
-  /*Buscador*/
-  .buscar_title
-  {
-  	/*display: inline-block;*/
-  	text-align: center;
-  	height: 70px;
-  	background: transparent;
-  	font-size: 32px;
-  	font-weight: 500;
-  	color: #000000;
-  	padding-left: 23px;
-  	line-height: 70px;
-  	padding-right: 26px;
-  }
-
-  .buscar_title2
-  {
-    text-align: center;
-    height: 70px;
-    background: transparent;
-    font-size: 34px;
-    font-weight: 500;
-    color: #000000;
-    padding-left: 23px;
-    line-height: 70px;
-    padding-right: 26px;
-  }
+    .buscar_button{
+      margin: 10px;
+    	width: 380px;
+    	height: 45px;
+    	background: #2d7f35;
+    	color: #ffffff;
+    	border: none;
+    	outline: none;
+    	cursor: pointer;
+      font-family:'Bebas Neue';
+    	font-size: 20px;
+    	font-weight: 500;
+    }
+    .buscar_button:hover{
+    	border: solid 2px #ffffff;
+    }
 
 
-  .publicidad, .publicidad img{
-    margin: 0;
-    width: 500px;
-    height: 120px;
-  }
 
 
 
@@ -1122,8 +978,6 @@ ol, ul {
     font-size: 10px;
     color: #fff;
   }
-
-
 
   p{
     text-align: left;
@@ -1155,7 +1009,10 @@ ol, ul {
 
   .burger-button {
     display: block;
+    top: 30px;
+    left: 20px;
   }
+
   .header {
     display: block;
     height: auto;
@@ -1199,14 +1056,14 @@ ol, ul {
 
 .contenedor-slider {
   margin: 0px;
-  height: 250px;
+  height: 224px;
   position: relative;
   overflow: hidden;
 }
 
-.hero img {
+.contenedor-slider img {
   width: 110%;
-  height: 200px;
+  height: 224px;
 }
 
   .btn-prev, .btn-next {
@@ -1237,35 +1094,7 @@ ol, ul {
     border-radius: 3px;
   }
 
-  .buscar_title
-  {
-  	text-align: center;
-  	height: 50px;
-  	background: transparent;
-  	font-size: 28px;
-  	font-weight: 500;
-  	color: #000000;
-  	padding-left: 23px;
-  	line-height: 70px;
-  	padding-right: 26px;
-  }
-
-  .buscar_title2
-  {
-  	text-align: center;
-  	height: 60px;
-  	background: transparent;
-  	font-size: 26px;
-  	font-weight: 500;
-  	color: #000000;
-  	padding-left: 23px;
-  	line-height: 70px;
-  	padding-right: 26px;
-  }
-
-
-  .buscar_form
-  {
+  .buscar_form {
     display: inline-block;
   	justify-content: center;
   	max-width: 350px;
@@ -1277,8 +1106,20 @@ ol, ul {
   	background: #701173;
   }
 
-  .buscar_button
-  {
+  .buscar_form select {
+    display: inline-block;
+  	justify-content: center;
+  	max-width: 300px;
+    max-height: 45px;
+    font-size: 15px;
+  	display: block;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
+  	padding-left: 4px;
+  	padding-right: 5px;
+  }
+
+  .buscar_button{
     margin: 10px;
   	width: 300px;
   	height: 51px;
@@ -1290,36 +1131,9 @@ ol, ul {
     font-family:'Bebas Neue';
   	font-size: 20px;
   	font-weight: 500;
-  	text-transform: uppercase;
-  	-webkit-transition: all 200ms ease;
-  	-moz-transition: all 200ms ease;
-  	-ms-transition: all 200ms ease;
-  	-o-transition: all 200ms ease;
-  	transition: all 200ms ease;
   }
-  .buscar_button:hover
-  {
+  .buscar_button:hover{
   	border: solid 2px #ffffff;
-  }
-  .buscar_input
-  {
-    margin: 5px;
-  	width: 300px;
-  	height: 51px;
-  	padding-left: 27px;
-  	background: #ffffff;
-  	border: none;
-  	outline: none;
-    font-family:'Bebas Neue';
-  	font-size: 20px;
-  	font-weight: 500;
-  	color: #2b2e35;
-  }
-
-  .buscador-a a{
-    margin: 0;
-    width: 600px;
-    text-align: center;
   }
 
 
