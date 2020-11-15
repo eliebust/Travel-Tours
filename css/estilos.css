@@ -377,16 +377,13 @@ ol, ul {
 }
 
 /****** Carousel*******/
-
+/*
   .tour {
     padding: 0 0 70px;
   }
-
-
-
-  .tour {
+/*  .tour {
     padding: 0 0 80px;
-  }
+  }*/
 
 
 .tour .tour_container .tour_pack_content {
@@ -394,6 +391,22 @@ ol, ul {
   padding: 45px 48px;
   border-radius: 0 0 15px 15px;
 }
+
+.tour_pack_content{
+  margin: 0px;
+  width: 100%;
+}
+
+.contenedor-imag div{
+  display: inline-block;
+  margin: 10px;
+  width: 350px;
+  height: 150px;
+  background: red;
+  border-radius: 25px;
+}
+
+
 
 @media (max-width: 991px) {
   .tour .tour_container .tour_pack_content {
@@ -439,13 +452,13 @@ ol, ul {
 .tour .tour_pack_content img {
   margin-bottom: 40px;
 }
-
+/*
 @media (max-width: 991px) {
   .tour .tour_pack_content img {
     margin-bottom: 15px;
   }
 }
-
+*/
 .tour .tour_pack_content h2 {
   font-size: 36px;
   margin-bottom: 32px;
@@ -453,21 +466,22 @@ ol, ul {
 }
 
 @media (max-width: 991px) {
+  /*
   .tour .tour_pack_content h2 {
     margin-bottom: 15px;
     font-size: 30px;
-  }
+  }*/
 }
 
 .tour .tour_pack_content .btn_10 {
   margin-top: 60px;
 }
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
   .tour .tour_pack_content .btn_10 {
     margin-top: 25px;
   }
-}
+}*/
 
 .tour .owl-nav {
   position: absolute;
@@ -698,7 +712,6 @@ ol, ul {
     z-index: 2;
   }
 
-
   /*menu*/
 
   .principal {
@@ -766,8 +779,6 @@ ol, ul {
     left: 0;
   }
 
-
-
   /* Slider*/
 
   .contenedor-slider {
@@ -822,7 +833,7 @@ ol, ul {
     right: 10px;
   }
 
-/*  .contenedor{
+  .contenedor{
   	position: absolute;
   	top: 400px;
   	left: 370px;
@@ -834,7 +845,56 @@ ol, ul {
     width: 300px;
     height: 65px;
   }
-*/
+
+
+/*Buscador de Propiedades*/
+
+.buscar form{
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.buscar_form {
+  display: inline-block;
+  justify-content: center;
+  max-width: 500px;
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #701173;
+}
+
+.buscar_form select {
+  display: inline-block;
+  justify-content: center;
+  max-width: 380px;
+  max-height: 45px;
+  font-size: 25px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.buscar_button{
+  margin: 10px;
+  width: 380px;
+  height: 45px;
+  background: #2d7f35;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family:'Bebas Neue';
+  font-size: 20px;
+  font-weight: 500;
+}
+.buscar_button:hover{
+  border: solid 2px #ffffff;
+}
 
 
 
