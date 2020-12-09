@@ -343,12 +343,6 @@ ol, ul {
   font-family:'Bebas Neue';
 	font-size: 20px;
 	font-weight: 500;
-/*	text-transform: uppercase;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;*/
 }
 .buscar_button:hover{
 	border: solid 0px #ffffff;
@@ -376,16 +370,6 @@ ol, ul {
   color: #00c0ff;
 }
 
-/****** Carousel*******/
-/*
-  .tour {
-    padding: 0 0 70px;
-  }
-/*  .tour {
-    padding: 0 0 80px;
-  }*/
-
-
 .tour .tour_container .tour_pack_content {
   background-color: #F9F5F9;
   padding: 45px 48px;
@@ -398,6 +382,10 @@ ol, ul {
 }
 
 .contenedor-imag div{
+  display: inline-block;
+}
+
+.imagenes img{
   display: inline-block;
   margin: 10px;
   width: 350px;
@@ -452,36 +440,17 @@ ol, ul {
 .tour .tour_pack_content img {
   margin-bottom: 40px;
 }
-/*
-@media (max-width: 991px) {
-  .tour .tour_pack_content img {
-    margin-bottom: 15px;
-  }
-}
-*/
+
 .tour .tour_pack_content h2 {
   font-size: 36px;
   margin-bottom: 32px;
   text-transform: capitalize;
 }
 
-@media (max-width: 991px) {
-  /*
-  .tour .tour_pack_content h2 {
-    margin-bottom: 15px;
-    font-size: 30px;
-  }*/
-}
 
 .tour .tour_pack_content .btn_10 {
   margin-top: 60px;
 }
-
-/*@media (max-width: 991px) {
-  .tour .tour_pack_content .btn_10 {
-    margin-top: 25px;
-  }
-}*/
 
 .tour .owl-nav {
   position: absolute;
@@ -495,20 +464,43 @@ ol, ul {
   margin-right: 20px;
 }
 
-/*@media (max-width: 991px) {
-  .single_pack {
-    padding: 70px 0;
-  }
+
+
+/*Suscribete*/
+
+.su {
+  background-color: #701173;
+  color: white;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .single_pack {
-    padding: 80px 0;
-  }
-}*/
+.suscribete h5{
+  padding: 10px;
+  color: #ffffff;
+}
+.suscribete h2{
+  padding: 10px;
+  color: #ffffff;
+}
 
-/*
+.suscribete input {
+  padding: 19px 39px;
+  text-transform: uppercase;
+  color: #000;
+}
 
+.subs_btn {
+  background: #fdae3c;
+	color: #ffffff;
+  padding: 10px 29px;
+  text-transform: uppercase;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
 
 
 
@@ -527,7 +519,7 @@ ol, ul {
   border-bottom: 1px solid #373636;
 }
 .single-cta i {
-  color: #ff5e14;
+  color: #701173;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -539,7 +531,6 @@ ol, ul {
 .cta-text h4 {
   color: #fff;
   font-size: 20px;
-  font-weight: 600;
   margin-bottom: 2px;
 }
 .cta-text span {
@@ -567,16 +558,11 @@ ol, ul {
 .footer-text p {
   margin: 0px;
   font-size: 14px;
-      color: #7e7e7e;
+  color: #7e7e7e;
   line-height: 28px;
   text-align: center;
 }
 .footer-indicadores p {
-/*  margin-bottom: 0;
-  margin: 0px;
-  font-size: 14px;
-      color: #7e7e7e;
-  line-height: 28px;*/
   text-align: center;
   display: inline-block;
   float: left;
@@ -587,7 +573,6 @@ ol, ul {
 .footer-widget-indicadores h3 {
   color: #fff;
   font-size: 20px;
-  font-weight: 600;
   margin-bottom: 10px;
   position: relative;
 }
@@ -651,12 +636,13 @@ ol, ul {
 .footer-widget-heading h3 {
   color: #fff;
   font-size: 20px;
-  font-weight: 600;
   margin-bottom: 20px;
   position: relative;
+  text-align: center;
 }
 
 .footer-widget ul li {
+  text-align: center;
   display: inline-block;
   float: left;
   width: 50%;
@@ -1194,6 +1180,18 @@ ol, ul {
   }
   .buscar_button:hover{
   	border: solid 2px #ffffff;
+  }
+
+  .contenedor-imag div{
+    display: inline-block;
+  }
+
+  .imagenes img{
+    display: inline-block;
+    margin: 1px;
+    width: 300px;
+    height: 120px;
+    border-radius: 20px;
   }
 
 
