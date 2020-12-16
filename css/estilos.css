@@ -503,12 +503,6 @@ ol, ul {
 }
 
 
-
-
-
-
-
-
 /*footer*/
 
 .footer-section {
@@ -519,10 +513,12 @@ ol, ul {
   border-bottom: 1px solid #373636;
 }
 .single-cta i {
-  color: #701173;
+  justify-content: center;
+  text-align: center;
+  color: #fdae3c;
   font-size: 30px;
-  float: left;
-  margin-top: 8px;
+  /*float: left;*/
+  margin-top: 1px;
 }
 .cta-text {
   padding-left: 15px;
@@ -616,22 +612,6 @@ ol, ul {
 .denuncie-bg{
   background: red;
 }
-/* Color Compartir*/
-.facebook-bg2{
-  background: #00acee;
-}
-.twitter-bg2{
-  background: #00acee;
-}
-.whatsapp-bg2{
-  background: #00acee;
-}
-.instagram-bg2{
-  background: #00acee;
-}
-.email-bg2{
-  background: #00acee;
-}
 
 .footer-widget-heading h3 {
   color: #fff;
@@ -655,7 +635,6 @@ ol, ul {
   color: #878787;
   text-transform: capitalize;
 }
-
 
 .copyright-area{
   background: #202020;
